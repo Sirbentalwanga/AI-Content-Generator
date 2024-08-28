@@ -16,3 +16,12 @@ The DailyPostJob class is a scheduled job that automates the process of generati
 This code is a framework and can be modified to suit different needs. For example, the AIContentGenerator can be adapted to generate content for various topics or different formats (e.g., blog posts, product descriptions). The SocialMediaPoster can be extended to post on multiple social media platforms, not just Twitter. Additionally, the DailyPostJob can be customized to run at different intervals or perform additional tasks, such as sending content approval notifications before posting.
 
 This framework provides a solid starting point for automating content creation and posting tasks using AI and social media APIs. You can easily extend or modify the code to meet specific project requirements.
+
+To set up the Project:
+1. Start by creating a new C# project in Visual Studio: 
+2. Open Visual Studio.
+3. Create a new Console App (.NET Core) project.
+4. Add the necessary NuGet packages:
+  - Newtonsoft.Json
+  - Quartz.NET
+  - RestSharp for API requests (optional, you can use HttpClient).
